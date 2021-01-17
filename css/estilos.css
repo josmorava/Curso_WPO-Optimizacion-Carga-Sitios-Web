@@ -75,6 +75,7 @@ list-style: none;
         line-height: 1.5;
         font-size: 40px;
         letter-spacing: -.2px;
+        max-width: 500px;
         /*Primera letra en mayúscula*/
         text-transform: capitalize;
         text-decoration: dashed;
@@ -127,7 +128,7 @@ list-style: none;
  h2{
      color: #026fff;
      text-transform: uppercase;
-     font-family: 'Source Sans Pro', sans-serif;
+     font-family: 'Source Sans Pro',system-ui;
      font-weight: bold;
      font-size: 24px;
      margin-bottom: 20px;
@@ -178,7 +179,7 @@ list-style: none;
  }
 
  .project strong{
-     font-family: 'Fjalla One', sans-serif;
+     font-family: 'Fjalla One',system-ui;
  }
 
 
@@ -340,7 +341,7 @@ list-style: none;
 ########################### */
 body{
     margin: 0;
-    font-family:'Source Sans Pro', sans-serif;
+    font-family:'Source Sans Pro',system-ui;
 }
 
 h1,
@@ -349,7 +350,7 @@ h3,
 h4,
 h5,
 h6{
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Fjalla One',system-ui;
     /*anchura de fuente*/
     font-weight: normal;
     /* cursiva font-style: italic;*/
