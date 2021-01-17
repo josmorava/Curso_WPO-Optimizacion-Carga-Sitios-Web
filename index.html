@@ -1,43 +1,26 @@
 <!DOCTYPE html>
-<!--"es" español/ ñ, ' -->
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Leonidas Esteban - Proyecto</title>
-    <!--"icon" icono en la parte izquierda de la pestaña al aldo del nombre de la pag-->
-    <link rel="stylesheet" href="css/estilos.css">
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="imagenes/favicon.png">
-    <!--adaptación del website a distintos dispositivos-->
-    <!--'width= device-width' el ancho va a ser igual al ancho del dispositivo-->
-    <!--'initial-escale= 0-1' modifica el ancho o zoom inicial en el website -->
     <meta name="viewport" content=" width=device-width, initial-scale=1">
-    <!--agregando media queries en forma de una nueva hoja de estilos-->
-    <!-- <link rel="stylesheet" href="css/media.css" media="screen and (max-width:768px)"> -->
+    <meta charset="UTF-8">
+    <!--Title-->
+    <title>Leonidas Esteban - Proyecto</title>
 
-    <!--agregando media queries en forma de la estiqueta style-->
-    <!-- <style>
-    @media screen and (max-width: 768px){
-        body{
-            border: 10px solid blue;
-        }
-    }
-    </style> -->
+    <!--icon-->
+    <link rel="icon" type="image/png" href="imagenes/favicon.png">
+
+    
 </head>
 <body>
     <i class="icon-menu burger-button" id="burger-menu"></i>
     <header class="header"> 
         <div class="container">
             <figure class="logo">
-                <!--"alt" texto alternativo para la "no carga de imagen"-->
                 <img src="imagenes/logo.png" height="50px" alt="Logo de http://leonidasesteban.com">
             </figure>
             <nav class="menu">
-                    <!--listas desordenadas-->
                     <ul></ul>
-                    <!--listas ordenadas-->
                     <ol class="menu-settings">
-                        <!--elementos de listas-->
                         <li>
                             <a href="#portafolio">Portafolio</a>
                         </li>
@@ -51,7 +34,6 @@
             </nav>  
         </div> 
     </header>
-    <!--el hero viene de buenas practicas como el contenido principal-->
     <section class="hero">
         <div class="container">
         <h1>
@@ -187,6 +169,10 @@
                     </div>
         </div>
     </footer>
+    
+    <!--Styles-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet">
 
    <script>
        console.log(document.querySelector('.menu'));
